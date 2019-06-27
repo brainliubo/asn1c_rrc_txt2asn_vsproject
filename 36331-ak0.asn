@@ -1210,7 +1210,7 @@ SystemInformationBlockType1 ::=		SEQUENCE {
 		plmn-IdentityList					PLMN-IdentityList,
 		trackingAreaCode					TrackingAreaCode,
 		cellIdentity						CellIdentity,
-		cellBarred					`		ENUMERATED {barred, notBarred},
+		cellBarred							ENUMERATED {barred, notBarred},
 		intraFreqReselection				ENUMERATED {allowed, notAllowed},
 		csg-Indication						BOOLEAN,
 		csg-Identity						CSG-Identity			OPTIONAL	-- Need OR
